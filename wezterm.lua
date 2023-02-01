@@ -1,7 +1,7 @@
 local wezterm = require("wezterm")
 
 return {
-	default_prog = { "powershell" },
+	default_prog = { "pwsh", "-nologo" },
 	font = wezterm.font("Maple Mono NF"),
 	font_size = 10,
 	initial_cols = 130,
